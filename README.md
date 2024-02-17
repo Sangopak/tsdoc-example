@@ -27,3 +27,15 @@ For local development
 For Prod
 
 `npm run start`
+
+## Install typedoc to create documents
+
+`npm install --save-dev typedoc`
+
+Add the below script in package.json
+
+"docs": "typedoc --out docs src"
+
+then run below command
+
+`npm run docs`

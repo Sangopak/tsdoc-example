@@ -1,6 +1,10 @@
 # build dirctories 
 build/
 dist/
+docs/
+reports/
 
 # Dependency directories
 node_modules/
+
+.DS_Store
