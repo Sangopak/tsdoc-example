@@ -1,0 +1,28 @@
+{
+  "name": "tsdoc-example",
+  "version": "1.0.0",
+  "description": "Just a tsdoc example",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sangopak/tsdoc-example.git"
+  },
+  "author": "Sangopak Kundu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sangopak/tsdoc-example/issues"
+  },
+  "homepage": "https://github.com/Sangopak/tsdoc-example#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "nodemon": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
