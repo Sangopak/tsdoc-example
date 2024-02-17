@@ -10,5 +10,14 @@
       "noImplicitAny": true,
       "esModuleInterop": true,
       "resolveJsonModule": true
-    }
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "./plugins/**/*",
+        "./typings/**/*",
+        "./dist/**/*",
+        ".coverage/**/*"
+    ]
 }
