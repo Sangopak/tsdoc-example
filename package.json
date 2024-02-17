@@ -7,7 +7,7 @@
     "start:dev": "npx nodemon",
     "build": "rimraf ./dist && tsc",
     "start": "npm run build && node build/index.js",
-    "docs": "rimraf ./docs && typedoc --out dist/docs --entryPointStrategy expand ./src",
+    "docs": "rimraf ./docs && typedoc --out dist/docs --entryPointStrategy expand ./src --exclude \"**/*+(index|.spec|.e2e).ts\"",
     "test": "jest"
   },
   "repository": {
